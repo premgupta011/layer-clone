@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-small: 1200px;
+  --breakpoint-vsmall: 750px;
+  --breakpoint-mobile: 420px;
+  --color-greyish: #80808079;
+}
+/* * {
+  overflow-x: hidden;
+} */
+@utility hide-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
